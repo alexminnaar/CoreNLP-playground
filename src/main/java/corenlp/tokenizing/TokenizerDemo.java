@@ -1,3 +1,5 @@
+package corenlp.tokenizing;
+
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.process.CoreLabelTokenFactory;
@@ -12,7 +14,7 @@ public class TokenizerDemo {
 
     public static void main(String[] args) throws IOException {
 
-            String arg = "/users/aminnaar/tm_corpus/00a4c740-4484-4055-a166-10fb160d7478.txt";
+            String arg = "data/sample_text.txt";
 
             // option #1: By sentence.
             DocumentPreprocessor dp = new DocumentPreprocessor(arg);
